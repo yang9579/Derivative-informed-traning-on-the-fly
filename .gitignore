@@ -1,0 +1,43 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Generated datasets and derivative banks
+**/data*/
+**/fno_data/
+**/*_jvps_shards/
+*.npz
+*.npy
+*.h5
+*.hdf5
+
+# Training outputs, logs, and figures
+artifacts/
+**/results*/
+**/reports/
+**/logs/
+*.pt
+*.pth
+*.ckpt
+*.log
+*.out
+*.err
+*.png
+*.pdf
+
+# Local scratch and backups
+tmp/
+**/tmp/
+*.bak

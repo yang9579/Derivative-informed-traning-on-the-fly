@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+
+# Generated data and derivative-label banks.  No trailing slash, so that
+# symlinked data directories are ignored as well.
+data_1d*
+*.npz
+
+# Training outputs, checkpoints, logs, and ad-hoc figures (same reason).
+results*
+figures/
+*.status
+*.pth
+*.pt
+*.log
+*.out
+*.err
+*.png
